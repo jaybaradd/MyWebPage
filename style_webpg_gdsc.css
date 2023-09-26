@@ -1,0 +1,139 @@
+
+.about-me{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+ }
+ /*
+.pfp{
+    width: 50%;
+    vertical-align: middle;
+    
+} */
+.about-me-heading {
+    display:inline-block;
+    font-size: 30px;
+    text-align:center;
+    width: 100%;
+}
+.about-me-p{
+  font-size: 25px;
+  color: rgb(236, 227, 227);
+  margin-top: 10px;
+  width: 95%;
+  text-align: center;
+  display:inline-block;
+  
+}
+
+.all_skills{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    margin: 100px 0;
+    justify-content: center;
+  
+}
+
+  
+  .skill {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+    transition: opacity 0.2s;
+    background-color:wheat ;
+    color:black;
+    height: 200px;
+  }
+  .skill:hover {
+    opacity: 0.7;
+  }
+  .skill img {
+    height: 35px;
+    align-items: center;
+  }
+  
+  .skills h4 {
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+  }
+  
+  .skills p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  .icons{
+    margin-top:10px;
+    width:10px;
+    align-items: center;
+    margin-left: 30px;
+  }
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.twitter-handle{
+ border-radius: 32px;
+ border:none;
+ background-color: rgb(102, 169, 250);;
+ color:white;
+ height: 3rem;
+ width: 8rem;
+ font-size: 24px;
+ font-weight: bold;
+ transition: opacity 0.3s;
+}
+
+.gmail-button{
+  font-family: sans-serif;
+  background-color: azure;
+  color: rgb(92, 88, 88);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10px;
+  vertical-align: top;
+  font-size:24px;
+  border: none;
+  transition: opacity 0.3s;
+}
+  
+.instagram-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 8rem;
+  height: 3rem;
+  vertical-align: top;
+  border-radius: 32px;
+  border:none;
+  background-color: white;
+  transition: opacity 0.3s;
+}
+
+.twitter-handle:hover{
+  opacity: 0.2;
+}
+.gmail-button:hover{
+  opacity: 0.7;
+}
+.instagram-button:hover{
+  opacity: 0.7;
+}
